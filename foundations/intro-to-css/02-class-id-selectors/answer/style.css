@@ -1,0 +1,18 @@
+.odd {
+    background-color:hsla(309, 74%, 73%, 1.00);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.size {
+    font-size:24px;
+}
+#second {
+    color:blue;
+    font-size:36px;
+}
+#fourth {
+    background-color:green;
+
+}
+
+/*these are properties for the index.html file. the .something is for classes, and 
+the #something are for ids*/
