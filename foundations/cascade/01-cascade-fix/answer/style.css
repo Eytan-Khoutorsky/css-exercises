@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
+
+
+.para {
+  font-size: 22px;
+}
+.small-para {
+  font-size: 14px; /*just put the small-para bellow para*/
+  font-weight: 800;
+}
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;  /*removed confirm and made it a id confirm-button with higher priority*/
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.text .child{ /*made it a descendant with higer selection*/
+  color: rgb(0, 0, 0); 
+  font-weight: 800;
+  font-size: 14px;
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
